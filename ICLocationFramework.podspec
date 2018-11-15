@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
- # s.ios.vendored_frameworks = 'ICLocationFramework.framework'
+   s.ios.vendored_frameworks = 'ICLocationFramework/ICLocationFramework.framework'
   s.swift_version = '4.0'
 #  s.source_files = '**/*'
 
