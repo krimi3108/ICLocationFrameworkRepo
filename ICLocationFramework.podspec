@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ICLoctionFramework'
+  s.name             = 'ICLocationFramework'
   s.version          = '1.0'
-  s.summary          = 'ICLoctionFramework for get current location'
+  s.summary          = 'ICLocationFramework for get current location'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kritikamiddha' => 'kritika.middha@ranosys.com' }
-  s.source           = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/blob/master/ICLoctionFramework.zip' }
+  s.source           = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/blob/master/ICLocationFramework.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.ios.vendored_frameworks = 'ICLoctionFramework.framework'
+  s.ios.vendored_frameworks = 'ICLocationFramework.framework'
   s.swift_version = '4.0'
 #  s.source_files = '**/*'
 
