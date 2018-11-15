@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kritikamiddha' => 'kritika.middha@ranosys.com' }
-  s.source           = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/ICLocationFramework.framework' }
+  s.source           = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/tree/master/ICLocationFramework.framework' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
