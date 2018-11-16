@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ICLocationFramework"
-  spec.version      = "6.0"
+  spec.version      = "7.0"
   spec.summary      = "Description of ICLocationFramework for cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/releases/download/6.0/ICLocationFramework.zip' }
+  spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/releases/download/7.0/ICLocationFramework.zip' }
   
   spec.ios.deployment_target = '10.0'
   spec.ios.vendored_frameworks = 'ICLocationFramework.framework'
