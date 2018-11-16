@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/releases/download/3.0/ICLocationFramework.zip' }
   
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'MySecondFramework.framework'
+  spec.ios.vendored_frameworks = 'ICLocationFramework.framework'
   spec.swift_version = '4.0'
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
