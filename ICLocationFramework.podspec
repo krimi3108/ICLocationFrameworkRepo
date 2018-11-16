@@ -52,10 +52,11 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Kritika Middha" => "kritika.middha@ranosys.com" }
+#  spec.author             = { "Kritika Middha" => "kritika.middha@ranosys.com" }
+  spec.author             = { "Mradul Mathur" => "mradul.mathur@ranosys.com" }
   # Or just: spec.author    = "Kritika Middha"
-  # spec.authors            = { "Kritika Middha" => "kritika.middha@ranosys.com" }
-  # spec.social_media_url   = "https://twitter.com/Kritika Middha"
+  #   spec.authors             = { "Mradul Mathur" => "mradul.mathur@ranosys.com" }
+  # spec.social_media_url   = "https://twitter.com"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
