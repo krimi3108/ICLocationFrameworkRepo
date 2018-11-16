@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/blob/master/sdk/1.0/ICLocationFramework.zip' }
+  spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/releases/download/1.0/ICLocationFramework.zip' }
   
   spec.ios.deployment_target = '10.0'
   spec.ios.vendored_frameworks = 'ICLocationFramework/ICLocationFramework.framework'
