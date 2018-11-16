@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ICLocationFramework"
   spec.version      = "1.0"
-  spec.summary      = "A short description of ICLocationFramework."
+  spec.summary      = "Description of ICLocationFramework for cocoapods."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => 'https://github.com/kritikamiddha/ICLocationFrameworkRepo/releases/download/1.0/ICLocationFramework.zip' }
   
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'ICLocationFramework/ICLocationFramework.framework'
+  spec.ios.vendored_frameworks = 'ICLocationFramework.framework'
   spec.swift_version = '4.0'
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
